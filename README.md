@@ -11,8 +11,6 @@ WordPress backend and HTML, CSS and JavaScript as a frontend.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [html](https://html.com/)
 - [css](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [javascript](https://www.javascript.com/)
