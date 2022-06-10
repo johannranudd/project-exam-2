@@ -7,7 +7,7 @@ WordPress backend and HTML, CSS and JavaScript as a frontend.
 
 ## Link to website
 
-- [https://epic-nobel-e9b8be.netlify.app/index.html](https://epic-nobel-e9b8be.netlify.app/index.html)
+- [https://johannblog.netlify.app/](https://johannblog.netlify.app/)
 
 ## Built With
 
@@ -24,7 +24,7 @@ You can list a the tech stack that you've used over here
 Clone the repo:
 
 ```bash
-git clone https://github.com/johannranudd/SP-johann-ranudd-0.2
+git clone https://github.com/johannranudd/project-exam-2.git
 ```
 
 ### Running
