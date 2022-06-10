@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Hotjar Tracking Code for https://johannblog.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2966782, hjsv: 6 };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="shipwreck blog, posts" />
+    <meta name="author" content="Johann Ranudd" />
+    <meta name="keywords" content="shipwreck, blog, diving, posts" />
+
+    <link rel="icon" href="./images/favicon-rs.webp" type="image/webp" />
+    <link rel="stylesheet" href="./css/global.styles.css" />
+    <link rel="stylesheet" href="./css/blogs.css" />
+    <script
+      src="https://kit.fontawesome.com/7246593e30.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Posts, shipwreck blog</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav class="inner-navbar">
+        <a href="./" class="logo">
+          <div><i class="fa-solid fa-ship"></i> Shipwreck Blog</div>
+        </a>
+
+        <ul class="main-menu">
+          <li><a href="./">Home</a></li>
+          <li><a href="./blogs.html" class="active-page-dark">Posts</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+
+        <ul class="mobile-menu">
+          <li>
+            <a href="./">Home</a>
+          </li>
+          <li>
+            <a href="./blogs.html" class="active-page-mobile">Posts</a>
+          </li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- spinner -->
+    <div class="spinner"></div>
+
+    <!-- main content -->
+    <section class="blog-section">
+      <h1>Posts</h1>
+      <!-- sort -->
+      <h3 class="sort-by-header">Sort by</h3>
+      <div class="sort-by-buttons">
+        <button type="button" data-id="latest" class="latest-btn">
+          Newest
+        </button>
+        <button type="button" data-id="oldest" class="oldest-btn">
+          Oldest
+        </button>
+      </div>
+      <form class="search-form">
+        <label for="search">Search wreck name</label>
+        <div>
+          <input
+            type="text"
+            aria-label="search for wreck"
+            name="search"
+            id="search"
+            placeholder="e.g. Frankenwald"
+          />
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </form>
+      <ul class="list-of-blogs"></ul>
+    </section>
+    <div class="load-more-btn-container">
+      <div class="all-posts-warning"></div>
+      <button type="button" class="load-more-btn">Load more</button>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      This website is a school project and is not for commercial use.<br />
+      Images by René B. Andersen
+    </footer>
+
+    <!-- JS -->
+    <script type="module" src="./js/blogs.js"></script>
+  </body>
+</html>
